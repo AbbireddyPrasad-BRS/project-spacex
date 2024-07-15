@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>Spacex - Using bootstrap version 5</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    <!-- Bootstrap -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start:Header  -->
+
+    <header data-bs-theme="black">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/spacex-logo.jpg " />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item dropdown pe-4">
+                            <a class="nav-link dropdown-toggle" href="list.html" id="dropdown01"
+                                data-bs-toggle="dropdown01">MENS</a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">Shirts</a>
+                                <a class="dropdown-item" href="#">Outerwear</a>
+                                <a class="dropdown-item" href="#">View All</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown pe-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01"
+                                data-bs-toggle="dropdown">WOMENS</a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">Shirts</a>
+                                <a class="dropdown-item" href="#">Outerwear</a>
+                                <a class="dropdown-item" href="#">View All</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown pe-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01"
+                                data-bs-toggle="dropdown">KIDS</a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">Shirts</a>
+                                <a class="dropdown-item" href="#">Outerwear</a>
+                                <a class="dropdown-item" href="#">View All</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown pe-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01"
+                                data-bs-toggle="dropdown">ACCESSORIES</a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">View All</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown pe-4">
+                            <a class="nav-link dropdown-toggle" href="details.html" id="dropdown01"
+                                data-bs-toggle="dropdown01">DETAILS</a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">View All</a>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="#">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Search</a>
+                        </li>
+                        <li class="nav-item text-uppercase">
+                            <a class="nav-link" href="#">Cart(3)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End:Header  -->
+
+
+    <main>
+        <!-- Cart Section -->
+        <div class="container text-center pt-5 mt-5 mb-md-5">
+            <h1><span>CART</span></h1>
+            <!-- Start:Cart List -->
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="col-sm-12 col-md-12">
+                        <table class="table text-md-start">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+
+                                    <th>Quantity</th>
+
+                                    <th class="text-end">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col-sm-8 col-md-6">
+                                        <div class="media d-flex text-start">
+                                            <a class="thumbnail pull-left" href="#"> <img class="media-object"
+                                                    src="assets/img/t-shirt-3.png" /> </a>
+                                            <div class="media-body ps-4">
+
+                                                <h5 class="media-heading">SPACEX T-SHIRT</h5>
+                                                <span>$100.00 </span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="col-sm-1 col-md-1" style="text-align: center">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" value="3" />
+                                        <button type="button" class="btn btn-link"><span class="fa fa-remove"></span>
+                                            Remove</button>
+                                    </td>
+
+                                    <td class="col-sm-1 col-md-1 text-end"><strong>$300.00</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="border-0"></td>
+
+                                    <td class="text-end border-0" colspan="2">
+                                        <h5>Total</h5>
+                                        <h5><strong>$300.00</strong></h5>
+                                        <p>Shipping & taxes calculated at checkout</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-0"></td>
+                                    <td class="border-0">
+
+                                    </td>
+                                    <td class="border-0">
+                                        <button type="button"
+                                            class="btn btn-dark btn-lg rounded-0 btn-block w-100">Checkout <span
+                                                class="fa fa-play"></span></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div><!-- Start:Cart List -->
+
+            <!-- Start:Estimator -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="Panel">
+                        <h2 class="Panel__Title Heading u-h2 ShippingEstimator__Title">Estimate Shipping + Handling</h2>
+
+                        <div class="row text-start">
+                            <div class="col-md-4">
+                                <label for="inputCity" class="form-label">Country</label>
+                                <input type="text" class="form-control rounded-0" id="inputCity">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="inputState" class="form-label">Province</label>
+                                <select id="inputState" class="form-select rounded-0">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="inputZip" class="form-label">Zip code</label>
+                                <input type="text" class="form-control rounded-0" id="inputZip">
+                            </div>
+                            
+                            <div class="col-2">
+                                <label>&nbsp;</label>
+                                <button type="submit" class="btn btn-dark btn-lg rounded-0 btn-block w-100 mt-2">Sign in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- End:Recently Viewed -->
+        </div>
+
+        
+        <hr>
+
+        <!-- Start:Recently Viewed -->
+        <div class="container text-center">
+
+            <div class="row py-5">
+                <div class="col-md-12">
+                    <h3>RECENTLY VIEWED</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featureContent position-relative">
+                        <div class="featuredHoveredImg">
+                            <img src="assets/img/t-shirt-2.png" class="img-fluid" />
+                        </div>
+                        <div class="py-4">
+                            <h4>SPACEX T-SHIRT</h4>
+                            <p>$150.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- End:Recently Viewed -->
+
+
+        <!-- FOOTER -->
+
+        <footer class="bg-black py-5">
+            <div class="container-fluid">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Features</a></li>
+                    <li class="nav-item"><a href="cart.html" class="nav-link px-2">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+                </ul>
+                <p class="text-body-primary text-center text-md-start">&copy; 2023 Company, Inc</p>
+            </div>
+        </footer>
+
+    </main>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Bootstrap Bundle Js -->
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plus minu for range selector -->
+  <script>
+    $(document).ready(function () {
+      $('.minus').click(function () {
+        var $input = $(this).parent().find('input');
+        var count = parseInt($input.val()) - 1;
+        count = count < 1 ? 1 : count;
+        $input.val(count);
+        $input.change();
+        return false;
+      });
+      $('.plus').click(function () {
+        var $input = $(this).parent().find('input');
+        $input.val(parseInt($input.val()) + 1);
+        $input.change();
+        return false;
+      });
+    });
+  </script>
+
+</body>
+
+</html>
